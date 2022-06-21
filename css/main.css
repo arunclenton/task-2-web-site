@@ -182,6 +182,11 @@ font-size: 16px;
     margin: 25px 0px 10px 25px;
     font-size: 20px;
 }
+.tikka h6{
+    margin: 13px 0px 0px 76px;
+    font-size: 28px;
+    color: #484898;
+}
 .tikka10 p{
     margin-left: 25px;
     margin-right: 25px;
@@ -231,12 +236,12 @@ font-size: 16px;
     height: 620px;
 }
 .mad1{
-   padding: 300px 0px 0px 0px; 
+   padding: 250px 0px 0px 0px; 
 }
 .mad2{
     border: 1px solid #ffffff80;
     background-color: #ffffff80;
-    height: 319px;
+    height: 368px;
 }
 .mad2 h2{
     margin: 21px 0px 0px 0px;
@@ -262,11 +267,68 @@ font-size: 16px;
 .display2 h4{
     margin: 17px 0px 10px 0px;
 }
-.icon{
+.cup{
+    margin-top: -51px;
+}
+.cup1{
+    margin-top: -50px;
+}
+.icofont-chicken-fry{
     position: relative;
-    top: 53px;
     left: 53px;
     font-size: 35px;
+    top: 58px;
+    border: 1px solid #fff;
+    background-color: #fff;
+    border-radius: 20px;
+}
+.icofont-noodles{
+    position: relative;
+    left: 53px;
+    font-size: 35px;
+    top: 58px;
+    border: 1px solid #fff;
+    background-color: #fff;
+    border-radius: 20px;
+}
+.icofont-cup-cake{
+    position: relative;
+    left: 53px;
+    font-size: 35px;
+    top: 58px;
+    border: 1px solid #fff;
+    background-color: #fff;
+    border-radius: 20px;
+}
+.icofont-soup-bowl{
+    position: relative;
+    right: 40px;
+    top: 55px;
+    border: 1px solid #fff;
+    font-size: 30px;
+    border-radius: 20px;
+    background-color: #fff;
+}
+.icofont-restaurant{
+    position: relative;
+    right: 40px;
+    top: 55px;
+    border: 1px solid #fff;
+    font-size: 30px;
+    border-radius: 20px;
+    background-color: #fff;
+}
+.icofont-fruits{
+    position: relative;
+    right: 40px;
+    top: 55px;
+    border: 1px solid #fff;
+    font-size: 30px;
+    border-radius: 20px;
+    background-color: #fff;
+}
+.soup{
+    margin-top: -21px;
 }
 .navigation-2{
     background-image: url("../images/13.jpg"); 
@@ -305,6 +367,12 @@ font-size: 16px;
 .book label{
     font-size: 20px;
     color: #fff;
+}
+.book1 i{
+    position: relative;
+    color: #fff;
+    right: 19px;
+    top: 2px;
 }
 .book22{
     margin-top: 15px;
@@ -356,6 +424,13 @@ font-size: 16px;
     padding: 106px 337px 0px 351px;
     color: #fff;
     font-size: 17px;
+}
+.icofont-quote-left{
+    position: relative;
+    top: 40px;
+    left: 650px;
+    font-size: 30px;
+    color: #fff;
 }
 .font h4{
     padding: 40px 0px 42px 606px;
@@ -438,7 +513,7 @@ font-size: 16px;
     border: 1px solid #fff;
     background-color: #fff;
     height: 130px;
-    margin-top: -3px;
+    margin-top: -3px;3
 }
 .cover12{
     margin-left: 50px;
@@ -452,7 +527,7 @@ font-size: 16px;
     width: 250px;
     border: 1px solid #fff;
     background-color: #fff;
-    height: 130px;
+    height: 10px;
     margin-top: -3px;
 }
 .cover13{
@@ -487,3 +562,572 @@ font-size: 16px;
     color: black
 }
 
+@media only screen and (max-width: 1024px){
+    .navigation{
+        background-image: url("../images/1.jpg");
+        width: 100%;
+        height: 933px;
+    }
+    .welcome{
+        display: flex;
+    }
+    .welcome1{
+        margin-top: 50px;
+    }
+    .welcome1 a{
+        margin-left: 35px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 25px;
+    }
+    .welcome2{
+        margin-left: 275px;
+        margin-top: 50px;
+    }
+    .welcome2 a{
+        color: #fff;
+        margin: 0px 0px 0px 23px;
+        text-decoration: none;
+        font-size: 25px;
+    }
+    .welcome3{
+        margin: 298px 372px 0px 317px;
+    border: 1px solid #fff;
+    width: 42%;
+    height: 302px;
+    background-color: #ffffffbf;
+    }
+    .welcome3 h3{
+        font-family: 'Lora', serif;
+        margin-left: 142px;
+        margin-top: 60px;
+        color: #1b1b67;
+        font-size: 34px;
+    }
+    .welcome3 h4{
+        margin-left: 100px;
+        margin-top: 15px;
+        font-size: 34px;
+        font-family: -webkit-body;
+        color: #dd9126;
+    }
+    .welcome3 h5{
+        margin-left: 143px;
+        margin-top: 20px;
+        border: 1px solid #fff;
+        width: 109px;
+        padding: 2px 2px 2px 7px;
+        background-color: #fff;
+    }
+    .indian{
+        display: flex;
+        background-color: #3a4b4f;
+    }
+    .indian img{
+        width: 25%;
+        margin: 40px 141px 40px 0px;
+    }
+    .indian h3{
+        margin: 85px 0px 15px 72px;
+        font-size: 25px;
+        color: #fff
+    }
+    .indian p{
+        margin: 0px 127px 0px 72px;
+        color: #fff;
+    }
+    .taste{
+        display: flex;
+        background-color: #d4d8d9;
+    }
+    .taste i{
+        position: relative;
+    top: -5px;
+    }
+    .taste1{
+        margin: 70px 19px 70px 30px;
+    }
+    .taste2{
+        margin: 70px 19px 70px 30px;
+    }
+    .taste3{
+        margin: 70px 19px 70px 30px;
+    }
+    .taste h4{
+        margin-bottom: 20px;
+        font-size: 20px;
+    }
+    .taste i{
+    font-size: 16px;
+        color: black;
+        border: 1px solid;
+        background: black;
+        border-radius: 30px;
+        margin-left: 10px;
+    }
+    .navigation-1{
+        background-image: url("../images/9.jpg");
+        padding: 50px 0px 50px 0px;
+    }
+    .tikka{
+        border: 1px solid white;
+        width: 76%;
+        margin: 0px 142px 0px 142px;
+        background-color: #ffffffa1;
+    }
+    .tikka h4{
+        margin: 20px 0px 0px 500px;
+        font-size: 30px;
+        color: #5b5bef;
+        font-family: cursive;
+    }
+    .tikka h5{
+        margin: 10px 0px 10px 415px;
+        font-size: 35px;
+        color: orange;
+    }
+    .flex-container1{
+        display: flex;
+    }
+    .flex-container2{
+        display: flex;
+    }
+    .flex-container3{
+        display: flex;
+    }
+    .tikka1 img{
+        width: 250px;
+        margin: 10px 0px 0px 0px;
+        height: 215px;
+    }
+    .tikka2 h3{
+        margin: 42px 30px 0px 30px;
+        font-size: 20px;
+    }
+    .tikka2 p{
+        margin: 20px 60px 0px 30px;
+    }
+    .tikka3 img{
+        width: 250px;
+        margin: 10px 0px 0px -11px;
+        height: 215px;
+    }
+    .tikka4 h3{
+        margin: 42px 30px 0px 30px;
+        font-size: 20px;
+    }
+    .tikka4 p{
+        margin: 20px  60px 0px 30px;
+    }
+    .tikka6 img{
+        width: 257px;
+        margin: -3px 0px 0px -45px;
+        height: 201px;
+    }
+    .tikka5 h3{
+        margin: 37px 0px 0px 25px;
+        font-size: 20px;
+    }
+    .tikka5 p{
+        margin: 10px 76px 0px 25px;
+    }
+    .tikka7 h3{
+        margin: 46px 0px 10px 25px;
+        font-size: 20px;
+    }
+    .tikka7 p{
+        margin: 0px -21px 0px 25px;
+    }
+    .tikka8 img{
+        margin: -3px 0px 0px 0px;
+        width: 268px;
+        height: 200px;
+    }
+    .tikka9 img{
+        width: 250px;
+        height: 215px;
+    }
+    .tikka10 h3{
+        margin: 25px 0px 10px 25px;
+        font-size: 20px;
+    }
+    .tikka h6{
+        margin: 13px 0px 0px 76px;
+        font-size: 28px;
+        color: #484898;
+    }
+    .tikka10 p{
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+    .tikka11 img{
+        width: 250px;
+        margin: -5px 33px 0px 0px;
+        height: 218px;
+    }
+    .tikka12 h3{
+        font-size: 20px;
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+    .easy{
+        height: 200px;
+        background-color: #d4d8d6;
+    }
+    .easy h4{
+        text-align: center;
+        padding: 50px 0px 10px 0px;
+        font-size: 20px;
+    }
+    .easy p{
+        margin: 0px 302px 0px 280px;
+    }
+    .easy1{
+        margin: 6px 0px 0px 387px;
+    }
+    .easy1 span{
+        margin-left: 60px;
+        font-size: 20px;
+    }
+    .easy2{
+        padding: 30px 0px 0px 630px;
+    }
+    .easy2 i{
+        font-size: 20px;
+        color: black;
+        border: 1px solid;
+        background: black;
+        border-radius: 30px;
+        margin-left: 10px;
+    }
+    .mad{
+        background-image: url("../images/12.jpg");
+        height: 620px;
+    }
+    .mad1{
+       padding: 250px 0px 0px 0px; 
+    }
+    .mad2{
+        border: 1px solid #ffffff80;
+        background-color: #ffffff80;
+        height: 368px;
+    }
+    .mad2 h2{
+        margin: 21px 0px 0px 0px;
+        text-align: center;
+        font-size: 25px;
+        font-family: cursive;
+        color: #2d2da1;
+    }
+    .mad2 h3{
+        margin: 5px 0px 0px 566px;
+        font-size: 30px;
+        color: orange;
+    }
+    .display{
+        display: flex;
+    }
+    .display1 h4{
+        margin: 17px 1px 10px 100px;
+    }
+    .display1 p{
+        margin: 0px 209px 20px 100px;
+    }
+    .display2 h4{
+        margin: 17px 0px 10px 0px;
+    }
+    .cup{
+        margin-top: -51px;
+    }
+    .cup1{
+        margin-top: -50px;
+    }
+    .icofont-chicken-fry{
+        position: relative;
+        left: 53px;
+        font-size: 35px;
+        top: 58px;
+        border: 1px solid #fff;
+        background-color: #fff;
+        border-radius: 20px;
+    }
+    .icofont-noodles{
+        position: relative;
+        left: 53px;
+        font-size: 35px;
+        top: 58px;
+        border: 1px solid #fff;
+        background-color: #fff;
+        border-radius: 20px;
+    }
+    .icofont-cup-cake{
+        position: relative;
+        left: 53px;
+        font-size: 35px;
+        top: 58px;
+        border: 1px solid #fff;
+        background-color: #fff;
+        border-radius: 20px;
+    }
+    .icofont-soup-bowl{
+        position: relative;
+        right: 40px;
+        top: 55px;
+        border: 1px solid #fff;
+        font-size: 30px;
+        border-radius: 20px;
+        background-color: #fff;
+    }
+    .icofont-restaurant{
+        position: relative;
+        right: 40px;
+        top: 55px;
+        border: 1px solid #fff;
+        font-size: 30px;
+        border-radius: 20px;
+        background-color: #fff;
+    }
+    .icofont-fruits{
+        position: relative;
+        right: 40px;
+        top: 55px;
+        border: 1px solid #fff;
+        font-size: 30px;
+        border-radius: 20px;
+        background-color: #fff;
+    }
+    .soup{
+        margin-top: -21px;
+    }
+    .navigation-2{
+        background-image: url("../images/13.jpg"); 
+        height: 889px; 
+    }
+    .book{
+        height: 250px;
+        background-color: #3a4b4f;
+    }
+    .book1{
+        display: flex;
+    }
+    .book h6{
+        padding: 41px 0px 0px 25px;
+        text-align: center;
+        font-size: 30px;
+        color: #fff;
+    }
+    .book input{
+        height: 20px;
+        width: 200px;
+        background-color: #3a4b4f;
+        border: 1px solid #fff;
+    }
+    .book2{
+        width: 380px;
+        margin: 20px 0px 3px 100px;
+    }
+    .book3{
+        width: 380px;
+        margin: 20px 0px 3px 100px;
+    }
+    .book32{
+        margin-top: 15px;
+    }
+    .book label{
+        font-size: 20px;
+        color: #fff;
+    }
+    .book1 i{
+        position: relative;
+        color: #fff;
+        right: 19px;
+        top: 2px;
+    }
+    .book22{
+        margin-top: 15px;
+    }
+    .book4{
+        margin: 20px 0px 3px 100px;
+    }
+    .book41{
+        margin-top: 15px;
+    }
+    .book button{
+        width: 200px;
+        color: #fff;
+        background-color: #3a4b4f;
+        height: 25px;
+        font-size: 18px;
+        border: 1px solid #fff;
+    }
+    .navigation-3{
+        background-image: url("../images/14.jpg");
+        height: 864px;
+    }
+    .cover{
+        background-color: #e0e3e4;
+        padding: 0px 0px 90px 0px;
+    }
+    .cover1{
+        display: flex;
+        justify-content: center;
+    }
+    .cover h4{
+         text-align: center; 
+        padding: 20px 0px 10px 0px;
+        font-size: 25px;
+        font-family: cursive;
+        color: #20205c; 
+    }
+    .cover h5{
+     text-align: center; 
+        font-size: 25px;
+        color: orange;
+        margin-bottom: 10px; 
+    }
+    .font{
+        background-color: #3a4b4f;
+        height: 315px;
+    }
+    .font p{
+        padding: 106px 337px 0px 351px;
+        color: #fff;
+        font-size: 17px;
+    }
+    .icofont-quote-left{
+        position: relative;
+        top: 40px;
+        left: 650px;
+        font-size: 30px;
+        color: #fff;
+    }
+    .font h4{
+        padding: 40px 0px 42px 606px;
+        font-size: 20px;
+        color: #fff;
+    }
+    .font span{
+        margin-left: 560px;
+    }
+    .span i{
+        margin-left: 15px;
+        border: 1px solid #fff;
+        border-radius: 30px;
+        font-size: 30px;
+        color: black;
+        background: #fff;
+    }
+    .about{
+        display: flex;
+        height: 300px;
+        background-color: #e0e3e4;
+    }
+    .about1{
+        width: 590px;
+        padding: 80px 1px 0px 40px;
+    }
+    .about1 h3{
+        padding-bottom: 15px;
+        font-size: 20px;
+    }
+    .about1 p{
+        padding-right: 100px;
+    }
+    .about2{
+        width: 140px;
+        padding-top: 80px;
+    }
+    .about2 h3{
+        padding-bottom: 15px;
+        font-size: 20px;
+    }
+    .about2 h6{
+        line-height: 38px;
+        font-size: 19px;
+    }
+    .about3{
+        width: 140px;
+        padding-top: 80px;
+    }
+    .about3 h3{
+        padding-bottom: 15px;
+        font-size: 20px;
+    }
+    .about3 h6{
+        line-height: 38px;
+        font-size: 19px;
+    }
+    .about4{
+        width: 140px;
+        padding-top: 80px;
+    }
+    .about4 h3{
+        padding-bottom: 15px;
+        font-size: 20px;
+    }
+    .about4 h6{
+        line-height: 38px;
+        font-size: 19px;
+    }
+    .covver11{
+        width: 220px;
+        margin: 0px 0px 0px -103px;
+    }
+    .cover11 img{
+        width: 250px;
+        margin-top: 20px;
+    }
+    .cover123{
+        width: 250px;
+        border: 1px solid #fff;
+        background-color: #fff;
+        height: 130px;
+        margin-top: -3px;
+    }
+    .cover12{
+        margin-left: 50px;
+        width: 257px;
+    }
+    .cover12 img{
+        width: 250px;
+        margin-top: 20px; 
+    }
+    .cover122{
+        width: 250px;
+        border: 1px solid #fff;
+        background-color: #fff;
+        height: 130px;
+        margin-top: -3px;
+    }
+    .cover13{
+        margin-left: 50px;
+        width: 257px;
+    }
+    .cover13 img{
+        width: 250px;
+        margin-top: 20px;
+    }
+    .cover133{
+       width: 250px;
+        border: 1px solid #fff;
+        background-color: #fff;
+        height: 130px;
+        margin-top: -3px;
+    }
+    .cover  h3{
+        margin: 4px 0px 10px 10px;
+    }
+    .cover h6{
+        margin: 5px 10px;
+    }
+    .cover p{
+        margin: 5px 10px;
+        padding-bottom: 20px;
+    }
+    .cover a{
+        margin-left: 10px;
+        text-decoration: none;
+        border-bottom: 3px solid orange;
+        color: black
+    }   
+}
